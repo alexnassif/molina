@@ -1,0 +1,29 @@
+
+> fibers@4.0.2 install /Users/alexnassif/PycharmProjects/molina/node_modules/fibers
+> node build.js || nodejs build.js
+
+`darwin-x64-64` exists; testing
+Binary is fine; exiting
+
+> node-sass@4.13.0 install /Users/alexnassif/PycharmProjects/molina/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.13.0/darwin-x64-64_binding.node
+Download complete
+Binary saved to /Users/alexnassif/PycharmProjects/molina/node_modules/node-sass/vendor/darwin-x64-64/binding.node
+Caching binary to /Users/alexnassif/.npm/node-sass/4.13.0/darwin-x64-64_binding.node
+
+> node-sass@4.13.0 postinstall /Users/alexnassif/PycharmProjects/molina/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /Users/alexnassif/PycharmProjects/molina/node_modules/node-sass/vendor/darwin-x64-64/binding.node
+Testing binary
+Binary is fine
++ fibers@4.0.2
++ sass@1.24.0
++ node-sass@4.13.0
++ typescript@3.7.4
++ typescript@3.7.4
+added 102 packages from 59 contributors and audited 909215 packages in 17.728s
+found 0 vulnerabilities
+
