@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e75111d3-0d67-42ee-9477-be9adaef0017" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Movement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Music.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/molinamain.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Music.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Music.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,8 @@
       <workItem from="1577044577618" duration="3065000" />
       <workItem from="1577061628328" duration="50000" />
       <workItem from="1577142844785" duration="8000" />
-      <workItem from="1578633924448" duration="6103000" />
+      <workItem from="1578633924448" duration="6460000" />
+      <workItem from="1578698633145" duration="2040000" />
     </task>
     <servers />
   </component>
@@ -118,5 +113,23 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="232" key="GridCell.Tab.0.bottom" timestamp="1578641304639">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1358" height="232" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1578641304639" />
+    <state width="1358" height="232" key="GridCell.Tab.0.center" timestamp="1578641304638">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1358" height="232" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1578641304638" />
+    <state width="1358" height="232" key="GridCell.Tab.0.left" timestamp="1578641304638">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1358" height="232" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1578641304638" />
+    <state width="1358" height="232" key="GridCell.Tab.0.right" timestamp="1578641304639">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1358" height="232" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1578641304639" />
   </component>
 </project>
