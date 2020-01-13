@@ -1,13 +1,12 @@
 import React from 'react';
+import Grid from '@material-ui/core/Grid';
 import YouTube from 'react-youtube';
 import withStyles from "@material-ui/core/styles/withStyles";
-import List from "@material-ui/core/List";
-import ListItem from '@material-ui/core/ListItem';
 
 const Music = ({classes}) => {
     return (
-        <div>
-            <List className={classes.root}>
+        <div className={classes.root}>
+            {/*<List className={classes.root}>
                 <ListItem className={classes.details}>
                     <YouTube videoId={"JzhIEXiYto4"}  />
 
@@ -23,25 +22,27 @@ const Music = ({classes}) => {
 
 
                 </ListItem>
-            </List>
+            </List>*/}
+            <Grid container spacing={3}>
+
+                <Grid item xs={6} >
+                    <YouTube videoId={"JzhIEXiYto4"}/>
+                </Grid>
+                <Grid item xs={6} >
+                    <YouTube videoId={"NYl7HNNQ1Wo"}/>
+                </Grid>
+                <Grid item xs={6} >
+                    <YouTube videoId={"MVoQT3uNg4I"}/>
+                </Grid>
+            </Grid>
         </div>
     );
 };
 
-const useStyles = {
+const useStyles = theme => ({
   root: {
-    display: "flex",
-    flexWrap: "wrap"
+    flexGrow: 1,
+      margin: 20
   },
-  details: {
-    justifyContent: "center"
-  },
-  link: {
-    color: "#424242",
-    textDecoration: "none",
-    "&:hover": {
-      color: "black"
-    }
-  }
-};
+});
 export default withStyles(useStyles)(Music);
