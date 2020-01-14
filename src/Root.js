@@ -20,4 +20,6 @@ const Root = () => (
     );
 
 
-export default withRoot(Root);
+//export default withRoot(Root);
+
+export default Root;

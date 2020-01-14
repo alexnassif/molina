@@ -2,47 +2,57 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import YouTube from 'react-youtube';
 import withStyles from "@material-ui/core/styles/withStyles";
+import {Card} from "@material-ui/core";
+import GridList from "@material-ui/core/GridList";
+import GridListTile from "@material-ui/core/GridListTile";
+
+
+const videoData =[
+    {
+        id: "JzhIEXiYto4"
+    },
+    {
+        id: "NYl7HNNQ1Wo"
+    },
+    {
+        id: "NYl7HNNQ1Wo"
+    },
+];
+
+
 
 const Music = ({classes}) => {
     return (
-        <div className={classes.root}>
-            {/*<List className={classes.root}>
-                <ListItem className={classes.details}>
-                    <YouTube videoId={"JzhIEXiYto4"}  />
 
-
-                </ListItem>
-                <ListItem className={classes.details}>
-                    <YouTube videoId={"NYl7HNNQ1Wo"}  />
-
-
-                </ListItem>
-                <ListItem className={classes.details}>
-                    <YouTube videoId={"MVoQT3uNg4I"}  />
-
-
-                </ListItem>
-            </List>*/}
-            <Grid container spacing={3}>
-
-                <Grid item xs={6} >
-                    <YouTube videoId={"JzhIEXiYto4"}/>
-                </Grid>
-                <Grid item xs={6} >
-                    <YouTube videoId={"NYl7HNNQ1Wo"}/>
-                </Grid>
-                <Grid item xs={6} >
-                    <YouTube videoId={"MVoQT3uNg4I"}/>
-                </Grid>
-            </Grid>
+        <div className={classes.root} >
+            <GridList  cellHeight={"auto"} cols={2}>
+                {videoData.map(tile => (
+                    <GridListTile  key={tile.id}>
+                        <YouTube  videoId={tile.id} />
+                    </GridListTile>
+                ))}
+            </GridList>
         </div>
-    );
+)
+    ;
 };
 
 const useStyles = theme => ({
+
   root: {
-    flexGrow: 1,
-      margin: 20
+    display: 'flex',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    overflow: 'hidden',
+    backgroundColor: theme.palette.background.paper,
+
+  margin:50
+  },
+  video: {
+    justifyContent: 'center'
+  },
+  icon: {
+    color: 'rgba(255, 255, 255, 0.54)',
   },
 });
 export default withStyles(useStyles)(Music);

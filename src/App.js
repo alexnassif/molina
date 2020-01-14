@@ -23,7 +23,6 @@ const styles = theme => ({
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        backgroundAttachment: "fixed",
         height: "100vh",
         opacity: 0.5
     }
